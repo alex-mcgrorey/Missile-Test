@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &175486
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 477760}
+  - 114: {fileID: 11441748}
+  - 114: {fileID: 11442132}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &477760
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175486}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -113.691185, y: -44.970924, z: 31.117878}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11441748
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2466d879f16fcec4bac955b3317b4832, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  length: 10
+  probCommon: 35
+  probUncommon: 25
+  probRare: 15
+  probLegendary: 5
+  creator: {fileID: 11442132}
+  startPoint: {x: 0, y: 0, z: 0}
+  missle: {fileID: 148244, guid: ed0ce9b17b879344ab8cee709422c5f1, type: 2}
+--- !u!114 &11442132
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9176ae626bee97408a877de25491b3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plain: {fileID: 144756, guid: cd553eca4fa33d14ba88dbe8f66a840f, type: 2}
+  end: {fileID: 160938, guid: fbd512d99e1b49348beca33b8557ab58, type: 2}
+  common:
+  - {fileID: 138458, guid: eb19354170622e44f96bb2cd0ec49b15, type: 2}
+  - {fileID: 142952, guid: 77f5585d24775dc4ab0217fa0ea423d7, type: 2}
+  - {fileID: 171616, guid: 300f73e06958bbf4d8e1ea7aff3b102b, type: 2}
+  uncommon:
+  - {fileID: 184312, guid: 06e39173c07e2464586dba054f359129, type: 2}
+  rare:
+  - {fileID: 185072, guid: 76259baaa307b48429aa41a72ad1abff, type: 2}
+  legendary:
+  - {fileID: 132920, guid: 2f735e604abd3b3428e4090925459ca1, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: end
+      value: 
+      objectReference: {fileID: 160938, guid: fbd512d99e1b49348beca33b8557ab58, type: 2}
+    - target: {fileID: 0}
+      propertyPath: missle
+      value: 
+      objectReference: {fileID: 148244, guid: ed0ce9b17b879344ab8cee709422c5f1, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 175486}
+  m_IsPrefabParent: 1

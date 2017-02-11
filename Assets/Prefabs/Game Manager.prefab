@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &151256
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 482384}
+  - component: {fileID: 11480366}
+  - component: {fileID: 11443954}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: GameManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &482384
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 151256}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11443954
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 151256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9176ae626bee97408a877de25491b3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plain: {fileID: 167178, guid: 9c19933aa6ff7d24a99fb58393a38c03, type: 2}
+  end: {fileID: 151788, guid: 7edc121217fe1f646970a221657e8ac5, type: 2}
+  common:
+  - {fileID: 116470, guid: 5c31c90f68304e3489a05a9664a984fb, type: 2}
+  - {fileID: 129576, guid: b0bd42d466225324ea77c6df76cdc151, type: 2}
+  - {fileID: 124298, guid: d075937a9c2535f488ab7cd6ac97d390, type: 2}
+  - {fileID: 116516, guid: 101a0f6689ba3bb41930d5e5c2169144, type: 2}
+  uncommon:
+  - {fileID: 138508, guid: 12698b8c25d97a14890b893516e0f77a, type: 2}
+  - {fileID: 160436, guid: e262887c89dd1174c93bf1dca040bd47, type: 2}
+  rare:
+  - {fileID: 103204, guid: 3b408fb57dd03904f972c236559d02d8, type: 2}
+  legendary:
+  - {fileID: 188100, guid: 17e40caa8e69aa64c918cb5d81b9e96e, type: 2}
+--- !u!114 &11480366
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 151256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2466d879f16fcec4bac955b3317b4832, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  length: 15
+  probCommon: 30
+  probUncommon: 20
+  probRare: 15
+  probLegendary: 10
+  startPoint: {x: 0, y: 0, z: 0}
+  compass: {fileID: 0}
+  missle: {fileID: 148244, guid: ed0ce9b17b879344ab8cee709422c5f1, type: 2}
+  startSpeed: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 151256}
+  m_IsPrefabParent: 1

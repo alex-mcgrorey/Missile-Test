@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: 873f3a99ebf2bb244ae2511b5cc2e0c7
+timeCreated: 1474511381
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: GUI Green Sprite Sheet_0
+    21300002: Template
+    21300004: Brake
+    21300006: Boost
+    21300008: Yaw Left
+    21300010: Yaw Right
+    21300012: Menu
+    21300014: Reset
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: GUI Green Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 3806
+        width: 289
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -74.116, y: 28.67212}
+        - {x: -74.116, y: -18.32788}
+        - {x: -71.116, y: -27.32788}
+        - {x: 74.884, y: -27.32788}
+        - {x: 74.884, y: 28.67212}
+    - name: Template
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 3618
+        width: 267
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -68.544, y: 29.416138}
+        - {x: -68.544, y: -28.583862}
+        - {x: 69.456, y: -28.583862}
+        - {x: 69.456, y: 29.416138}
+    - name: Brake
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 3616
+        width: 266
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -68.07599, y: 30.39209}
+        - {x: -68.07599, y: -29.60791}
+        - {x: 63.92401, y: -29.60791}
+        - {x: 68.92401, y: -28.60791}
+        - {x: 68.92401, y: 30.39209}
+    - name: Boost
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 3618
+        width: 266
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -68.10797, y: 29.416138}
+        - {x: -68.10797, y: -28.583862}
+        - {x: 68.89203, y: -28.583862}
+        - {x: 68.89203, y: 29.416138}
+    - name: Yaw Left
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 3485
+        width: 266
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -68.044, y: 29.320068}
+        - {x: -68.044, y: -28.679932}
+        - {x: 68.956, y: -28.679932}
+        - {x: 68.956, y: 29.320068}
+    - name: Yaw Right
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 3485
+        width: 266
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -68.09999, y: 29.320068}
+        - {x: -68.09999, y: -28.679932}
+        - {x: 68.90001, y: -28.679932}
+        - {x: 68.90001, y: 29.320068}
+    - name: Menu
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 3485
+        width: 129
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.10797, y: 29.820068}
+        - {x: -33.10797, y: -29.179932}
+        - {x: 33.89203, y: -29.179932}
+        - {x: 33.89203, y: 29.820068}
+    - name: Reset
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 3485
+        width: 129
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.915985, y: 29.820068}
+        - {x: -32.915985, y: -29.179932}
+        - {x: 34.084015, y: -29.179932}
+        - {x: 34.084015, y: 29.820068}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
